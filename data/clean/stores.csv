@@ -1,0 +1,41 @@
+store_id,store_name,county,town,store_type,opening_date,floor_area_sqm,latitude,longitude,manager_name
+ST001,Karen Kiosk,Nairobi,Karen,Kiosk,2015-09-16,72,-1.262625,36.774035,Agnes Njoroge
+ST002,Embakasi Supermarket,Nairobi,Embakasi,Supermarket,2022-11-22,704,-1.295243,36.782954,Lucy Kamau
+ST003,Kasarani Kiosk,Nairobi,Kasarani,Kiosk,2023-06-09,100,-1.259385,36.835272,Collins Hussein
+ST004,South B Mini-mart,Nairobi,South B,Mini-mart,2013-07-17,222,-1.311612,36.776311,Zainab Kamau
+ST005,Westlands Supermarket,Nairobi,Westlands,Supermarket,2016-09-11,1155,-1.327224,36.84953,Hassan Naliaka
+ST006,Langata Kiosk,Nairobi,Langata,Kiosk,2016-05-15,47,-1.319275,36.828608,Moses Gitau
+ST007,Kilimani Supermarket,Nairobi,Kilimani,Supermarket,2015-11-16,1100,-1.252054,36.820379,Samuel Ndung'u
+ST008,Ruaraka Mini-mart,Nairobi,Ruaraka,Mini-mart,2019-11-14,197,-1.309519,36.785056,Naomi Wanjiku
+ST009,Donholm Supermarket,Nairobi,Donholm,Supermarket,2013-05-25,1119,-1.370143,36.800256,Hassan Abdi
+ST010,Parklands Mini-mart,Nairobi,Parklands,Mini-mart,2018-05-07,342,-1.303436,36.793882,Moses Nyongesa
+ST011,Githurai Mini-mart,Nairobi,Githurai,Mini-mart,2022-06-12,129,-1.331973,36.841858,Eric Mburu
+ST012,Nyali Mini-mart,Mombasa,Nyali,Mini-mart,2016-03-06,347,-4.076096,39.649847,James Njoroge
+ST013,Kisauni Mini-mart,Mombasa,Kisauni,Mini-mart,2019-03-04,165,-4.042375,39.692037,Ali Mutiso
+ST014,Bamburi Mini-mart,Mombasa,Bamburi,Mini-mart,2014-05-22,204,-4.046986,39.583633,Zainab Njoroge
+ST015,Mvita Supermarket,Mombasa,Mvita,Supermarket,2022-08-23,1399,-4.088274,39.649092,Winnie Wambui
+ST016,Milimani Supermarket,Kisumu,Milimani,Supermarket,2016-06-29,891,-0.048985,34.681634,Fatuma Langat
+ST017,Mamboleo Mini-mart,Kisumu,Mamboleo,Mini-mart,2015-01-22,249,-0.087394,34.741525,Cynthia Kimani
+ST018,Kondele Mini-mart,Kisumu,Kondele,Mini-mart,2016-04-27,146,-0.142175,34.776964,Joyce Koech
+ST019,Gilgil Supermarket,Nakuru,Gilgil,Supermarket,2013-10-01,1046,-0.334988,36.033671,Brenda Abdi
+ST020,Naivasha Supermarket,Nakuru,Naivasha,Supermarket,2014-12-12,425,-0.37654,36.029221,Hassan Koech
+ST021,Nakuru Town Supermarket,Nakuru,Nakuru Town,Supermarket,2018-09-17,939,-0.28228,36.030523,Grace Omondi
+ST022,Langas Mini-mart,Uasin Gishu,Langas,Mini-mart,2014-11-05,126,0.567299,35.277852,Grace Kiprop
+ST023,Eldoret CBD Mini-mart,Uasin Gishu,Eldoret CBD,Mini-mart,2018-08-29,308,0.511311,35.358396,Halima Rotich
+ST024,Kapsoya Supermarket,Uasin Gishu,Kapsoya,Supermarket,2023-06-12,653,0.465744,35.233739,Grace Wafula
+ST025,Thika Kiosk,Kiambu,Thika,Kiosk,2015-03-04,89,-1.033038,36.798261,Faith Chebet
+ST026,Juja Supermarket,Kiambu,Juja,Supermarket,2013-08-24,1466,-1.022371,36.909955,Brenda Gitau
+ST027,Ruiru Kiosk,Kiambu,Ruiru,Kiosk,2020-11-28,77,-1.020031,36.810454,Daniel Nyambura
+ST028,Mlolongo Mini-mart,Machakos,Mlolongo,Mini-mart,2012-01-20,382,-1.585408,37.345546,Peter Gitau
+ST029,Machakos Town Supermarket,Machakos,Machakos Town,Supermarket,2015-09-03,1059,-1.572352,37.218264,Brenda Koech
+ST030,Kajiado Town Supermarket,Kajiado,Kajiado Town,Supermarket,2017-01-03,591,-1.847471,36.809197,Eric Wambui
+ST031,Kitengela Mini-mart,Kajiado,Kitengela,Mini-mart,2013-03-21,334,-1.895908,36.760294,Mary Otieno
+ST032,Karatina Supermarket,Nyeri,Karatina,Supermarket,2017-09-03,1420,-0.444208,36.934616,Samuel Atieno
+ST033,Nyeri Town Mini-mart,Nyeri,Nyeri Town,Mini-mart,2022-11-06,200,-0.454797,36.939807,Jane Hussein
+ST034,Meru Town Supermarket,Meru,Meru Town,Supermarket,2013-01-21,407,0.140842,37.606338,Zainab Langat
+ST035,Maua Mini-mart,Meru,Maua,Mini-mart,2023-03-22,357,0.107293,37.612546,Brian Odhiambo
+ST036,Mumias Supermarket,Kakamega,Mumias,Supermarket,2019-08-27,1066,0.256528,34.708157,James Kimani
+ST037,Ogembo Mini-mart,Kisii,Ogembo,Mini-mart,2020-09-03,195,-0.731839,34.871846,Eric Wambui
+ST038,Malindi Supermarket,Kilifi,Malindi,Supermarket,2015-07-31,560,-3.543565,39.800657,Amina Kiprop
+ST039,Runyenjes Supermarket,Embu,Runyenjes,Supermarket,2021-03-18,1035,-0.599745,37.445091,David Mutiso
+ST040,Garissa Town Supermarket,Garissa,Garissa Town,Supermarket,2016-04-17,1050,-0.402364,39.653771,Agnes Mutua

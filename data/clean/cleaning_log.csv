@@ -1,0 +1,16 @@
+table,step,rows_before,rows_after,values_fixed,note
+transactions,drop exact duplicate rows,252500.0,250000.0,,
+transactions,parse dd/mm/yyyy dates to one date type,,,12403.0,
+transactions,fill blank dates from the same invoice,,,3502.0,
+transactions,fill remaining blank dates from the neighbouring invoice (approximate),,,236.0,
+transactions,replace quantity outliers (above 12) with the product median,,,239.0,
+transactions,replace price outliers (above 3x product-year median) with the median,,,123.0,
+transactions,recompute line_total for corrected rows,,,362.0,(untouched rows with a wrong total: 0)
+customers,drop exact duplicate rows,5015.0,5000.0,,
+customers,standardise county names,,,292.0,
+customers,convert local 07.. phone numbers to +254 format,,,517.0,
+customers,fill blank gender with 'Unknown',,,135.0,
+customers,set impossible birth dates (before 1920) to blank,,,11.0,
+stores,"validate keys, counties and missing values",40.0,40.0,,
+products,"validate keys, prices and missing values; add margin_pct",300.0,300.0,,
+promotions,validate keys and dates; add duration_days,12.0,12.0,,

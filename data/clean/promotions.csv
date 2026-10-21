@@ -1,0 +1,13 @@
+promo_id,promo_name,start_date,end_date,discount_pct,category_targeted,duration_days
+PR01,Back-to-School,2022-01-03,2022-01-14,10,Household,12
+PR02,Black Friday,2022-11-21,2022-11-27,25,All,7
+PR03,Back-to-School,2023-01-02,2023-01-13,12,Household,12
+PR04,Easter Offer,2023-04-03,2023-04-10,10,Food Staples,8
+PR05,Mid-Year Sale,2023-07-03,2023-07-14,15,Personal Care,12
+PR06,Black Friday,2023-11-20,2023-11-26,30,All,7
+PR07,Back-to-School,2024-01-02,2024-01-13,12,Snacks,12
+PR08,Easter Offer,2024-03-25,2024-04-01,10,Dairy,8
+PR09,Month-End Mega,2024-08-26,2024-08-31,8,Beverages,6
+PR10,Black Friday,2024-11-25,2024-12-01,25,All,7
+PR11,Easter Offer,2025-04-14,2025-04-21,10,Food Staples,8
+PR12,Mid-Year Sale,2025-07-07,2025-07-18,15,Beverages,12

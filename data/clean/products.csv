@@ -1,0 +1,301 @@
+product_id,product_name,category,subcategory,brand,unit_cost_kes,unit_price_kes,supplier,is_perishable,margin_pct
+P001,Alpenliebe Sweets Single,Snacks,Sweets,Alpenliebe,94.25,135.0,Coastal Supplies Ltd,False,30.2
+P002,Nunu Evaporated Milk 170g,Dairy,Evaporated Milk,Nunu,148.29,185.0,Rift Valley Wholesalers,False,19.8
+P003,Festive Bread 400g,Food Staples,Bread,Festive,90.11,117.0,Safari Provisions,True,23.0
+P004,Daima Yoghurt 250ml,Dairy,Yoghurt,Daima,53.61,65.0,Savannah Distributors,True,17.5
+P005,Monster Energy Drink 500ml,Beverages,Energy Drink,Monster,282.45,396.0,Lakeside Traders,False,28.7
+P006,Pick n Peel Juice 500ml,Beverages,Juice,Pick n Peel,86.99,112.0,Safari Provisions,False,22.3
+P007,Tuzo Mala 250ml,Dairy,Mala,Tuzo,61.92,74.0,Coastal Supplies Ltd,True,16.3
+P008,Lays Crisps 40g,Snacks,Crisps,Lays,146.13,191.0,Safari Provisions,False,23.5
+P009,Kleesoft Laundry Bar Soap 800g,Household,Laundry Bar Soap,Kleesoft,123.66,152.0,Mt. Kenya Distributors,False,18.6
+P010,Mayfair Cake Slices Pack of 6,Snacks,Cake Slices,Mayfair,449.15,649.0,Lakeside Traders,True,30.8
+P011,Air Wick Air Freshener 500ml,Household,Air Freshener,Air Wick,520.92,677.0,Lakeside Traders,False,23.1
+P012,Joy Dish Soap 500ml,Household,Dish Soap,Joy,203.39,236.0,Safari Provisions,False,13.8
+P013,Oreo Biscuits 100g,Snacks,Biscuits,Oreo,143.76,208.0,Mt. Kenya Distributors,False,30.9
+P014,Lays Crisps 165g,Snacks,Crisps,Lays,496.86,688.0,Jambo Wholesale,False,27.8
+P015,Daima Mala 500ml,Dairy,Mala,Daima,211.09,269.0,Coastal Supplies Ltd,True,21.5
+P016,Exe Wheat Flour 1kg,Food Staples,Wheat Flour,Exe,128.55,178.0,Jambo Wholesale,False,27.8
+P017,Halls Sweets Single,Snacks,Sweets,Halls,105.84,132.0,Rift Valley Wholesalers,False,19.8
+P018,Brookside UHT Milk 500ml,Dairy,UHT Milk,Brookside,73.87,105.0,Lakeside Traders,False,29.6
+P019,Jogoo Maize Flour 5kg,Food Staples,Maize Flour,Jogoo,340.92,411.0,Safari Provisions,False,17.1
+P020,Britannia Wafers Single,Snacks,Wafers,Britannia,32.36,40.0,Mt. Kenya Distributors,False,19.1
+P021,Vaseline Body Lotion 200ml,Personal Care,Body Lotion,Vaseline,335.28,464.0,Coastal Supplies Ltd,False,27.7
+P022,Rina Cooking Oil 3L,Food Staples,Cooking Oil,Rina,671.18,877.0,Coastal Supplies Ltd,False,23.5
+P023,Zesta Crisps 100g,Snacks,Crisps,Zesta,379.2,535.0,Safari Provisions,False,29.1
+P024,Aquamist Bottled Water 1L,Beverages,Bottled Water,Aquamist,164.66,201.0,Highlands Trading Co,False,18.1
+P025,Zesta Crisps 40g,Snacks,Crisps,Zesta,199.58,236.0,Highlands Trading Co,False,15.4
+P026,Tuzo Fresh Milk 1L,Dairy,Fresh Milk,Tuzo,132.76,192.0,Savannah Distributors,True,30.9
+P027,Coca-Cola Soda 500ml,Beverages,Soda,Coca-Cola,150.52,211.0,Lakeside Traders,False,28.7
+P028,Broadways Bread 400g,Food Staples,Bread,Broadways,62.09,74.0,Lakeside Traders,True,16.1
+P029,Ariel Laundry Detergent 2kg,Household,Laundry Detergent,Ariel,1573.26,2070.0,Safari Provisions,False,24.0
+P030,Delmonte Juice 1L,Beverages,Juice,Delmonte,252.72,303.0,Coastal Supplies Ltd,False,16.6
+P031,Happy Cow Cheese 400g,Dairy,Cheese,Happy Cow,522.05,672.0,Safari Provisions,True,22.3
+P032,Colgate Toothbrush Single,Personal Care,Toothbrush,Colgate,79.4,103.0,Savannah Distributors,False,22.9
+P033,Act II Popcorn 100g,Snacks,Popcorn,Act II,221.05,287.0,Safari Provisions,False,23.0
+P034,Ajab Wheat Flour 2kg,Food Staples,Wheat Flour,Ajab,229.62,291.0,Coastal Supplies Ltd,False,21.1
+P035,Tuzo Ghee 500g,Dairy,Ghee,Tuzo,891.49,1212.0,Mt. Kenya Distributors,False,26.4
+P036,Pepsi Soda 500ml,Beverages,Soda,Pepsi,126.62,168.0,Jambo Wholesale,False,24.6
+P037,Kleenex Toilet Paper 4 rolls,Household,Toilet Paper,Kleenex,158.02,211.0,Savannah Distributors,False,25.1
+P038,Gillette Razor Blades Pack of 2,Personal Care,Razor Blades,Gillette,314.91,432.0,Highlands Trading Co,False,27.1
+P039,Daima Fresh Milk 500ml,Dairy,Fresh Milk,Daima,96.6,130.0,Mt. Kenya Distributors,True,25.7
+P040,Fresh Fry Cooking Oil 3L,Food Staples,Cooking Oil,Fresh Fry,1010.54,1191.0,Mt. Kenya Distributors,False,15.2
+P041,Mentos Sweets Bag,Snacks,Sweets,Mentos,119.34,142.0,Lakeside Traders,False,16.0
+P042,Daima Mala 1L,Dairy,Mala,Daima,377.74,459.0,Safari Provisions,True,17.7
+P043,Aquafresh Toothpaste 140ml,Personal Care,Toothpaste,Aquafresh,804.68,1006.0,Coastal Supplies Ltd,False,20.0
+P044,Krackles Biscuits 400g,Snacks,Biscuits,Krackles,507.97,720.0,Jambo Wholesale,False,29.4
+P045,Sunlight Laundry Bar Soap 800g,Household,Laundry Bar Soap,Sunlight,189.86,235.0,Highlands Trading Co,False,19.2
+P046,Soko Maize Flour 1kg,Food Staples,Maize Flour,Soko,84.96,112.0,Rift Valley Wholesalers,False,24.1
+P047,Zesta Crisps 165g,Snacks,Crisps,Zesta,678.58,943.0,Mt. Kenya Distributors,False,28.0
+P048,Britannia Biscuits 200g,Snacks,Biscuits,Britannia,231.07,313.0,Coastal Supplies Ltd,False,26.2
+P049,Tiffy Biscuits 400g,Snacks,Biscuits,Tiffy,450.12,545.0,Rift Valley Wholesalers,False,17.4
+P050,Pepsi Soda 2L,Beverages,Soda,Pepsi,226.58,285.0,Savannah Distributors,False,20.5
+P051,Jergens Body Lotion 200ml,Personal Care,Body Lotion,Jergens,262.17,328.0,Rift Valley Wholesalers,False,20.1
+P052,Close-up Toothpaste 100ml,Personal Care,Toothpaste,Close-up,237.87,303.0,Coastal Supplies Ltd,False,21.5
+P053,Dettol Bar Soap 100g,Personal Care,Bar Soap,Dettol,135.98,161.0,Savannah Distributors,False,15.5
+P054,Pembe Wheat Flour 2kg,Food Staples,Wheat Flour,Pembe,243.91,315.0,Rift Valley Wholesalers,False,22.6
+P055,Happy Cow Cheese 200g,Dairy,Cheese,Happy Cow,274.76,331.0,Coastal Supplies Ltd,True,17.0
+P056,Fanta Soda 2L,Beverages,Soda,Fanta,139.83,175.0,Lakeside Traders,False,20.1
+P057,Tetley Tea Leaves 100g,Food Staples,Tea Leaves,Tetley,79.51,105.0,Savannah Distributors,False,24.3
+P058,Sunlight Laundry Detergent 500g,Household,Laundry Detergent,Sunlight,507.02,733.0,Jambo Wholesale,False,30.8
+P059,Mayfair Cake Slices Single,Snacks,Cake Slices,Mayfair,236.39,342.0,Safari Provisions,True,30.9
+P060,Kotex Sanitary Pads 16 pads,Personal Care,Sanitary Pads,Kotex,327.91,457.0,Lakeside Traders,False,28.2
+P061,Tiffy Biscuits 100g,Snacks,Biscuits,Tiffy,132.39,158.0,Coastal Supplies Ltd,False,16.2
+P062,Omo Laundry Detergent 2kg,Household,Laundry Detergent,Omo,1419.21,1965.0,Safari Provisions,False,27.8
+P063,Nivea Body Lotion 400ml,Personal Care,Body Lotion,Nivea,562.58,762.0,Coastal Supplies Ltd,False,26.2
+P064,Predator Energy Drink 500ml,Beverages,Energy Drink,Predator,317.7,413.0,Highlands Trading Co,False,23.1
+P065,Kibo Matches Pack of 10,Household,Matches,Kibo,39.64,50.0,Coastal Supplies Ltd,False,20.7
+P066,House Brand Groundnuts 250g,Snacks,Groundnuts,House Brand,117.35,166.0,Lakeside Traders,False,29.3
+P067,Pampers Baby Diapers L,Personal Care,Baby Diapers,Pampers,2783.07,3755.0,Safari Provisions,False,25.9
+P068,Huggies Baby Diapers M,Personal Care,Baby Diapers,Huggies,1167.6,1424.0,Highlands Trading Co,False,18.0
+P069,Sunlight Laundry Bar Soap 1kg,Household,Laundry Bar Soap,Sunlight,360.74,459.0,Mt. Kenya Distributors,False,21.4
+P070,Britannia Wafers Pack,Snacks,Wafers,Britannia,61.48,74.0,Savannah Distributors,False,16.9
+P071,Bic Razor Blades Pack of 5,Personal Care,Razor Blades,Bic,520.18,706.0,Rift Valley Wholesalers,False,26.3
+P072,House Brand Groundnuts 500g,Snacks,Groundnuts,House Brand,210.0,254.0,Lakeside Traders,False,17.3
+P073,Mentos Sweets Single,Snacks,Sweets,Mentos,62.81,80.0,Rift Valley Wholesalers,False,21.5
+P074,Fresh Fry Cooking Oil 500ml,Food Staples,Cooking Oil,Fresh Fry,297.22,426.0,Savannah Distributors,False,30.2
+P075,Nivea Deodorant 50ml,Personal Care,Deodorant,Nivea,266.42,370.0,Savannah Distributors,False,28.0
+P076,Pringles Crisps 40g,Snacks,Crisps,Pringles,280.52,399.0,Rift Valley Wholesalers,False,29.7
+P077,Festive Cake Slices Single,Snacks,Cake Slices,Festive,37.24,44.0,Safari Provisions,True,15.4
+P078,Red Bull Energy Drink 250ml,Beverages,Energy Drink,Red Bull,193.86,262.0,Highlands Trading Co,False,26.0
+P079,Snickers Chocolate Bar 50g,Snacks,Chocolate Bar,Snickers,106.57,146.0,Safari Provisions,False,27.0
+P080,Kenco Instant Coffee 100g,Beverages,Instant Coffee,Kenco,523.22,747.0,Savannah Distributors,False,30.0
+P081,Colgate Toothbrush Pack of 2,Personal Care,Toothbrush,Colgate,150.86,174.0,Safari Provisions,False,13.3
+P082,Jambo Spaghetti 400g,Food Staples,Spaghetti,Jambo,105.75,130.0,Safari Provisions,False,18.7
+P083,Aquafresh Toothbrush Single,Personal Care,Toothbrush,Aquafresh,202.54,286.0,Coastal Supplies Ltd,False,29.2
+P084,Oreo Biscuits 400g,Snacks,Biscuits,Oreo,488.8,564.0,Mt. Kenya Distributors,False,13.3
+P085,Mwea Rice 1kg,Food Staples,Rice,Mwea,216.0,268.0,Coastal Supplies Ltd,False,19.4
+P086,Pishori Rice 1kg,Food Staples,Rice,Pishori,178.36,218.0,Lakeside Traders,False,18.2
+P087,Nunu Evaporated Milk 410g,Dairy,Evaporated Milk,Nunu,281.75,370.0,Highlands Trading Co,False,23.9
+P088,Dormans Instant Coffee 200g,Beverages,Instant Coffee,Dormans,642.06,773.0,Jambo Wholesale,False,16.9
+P089,Prestige Butter 250g,Dairy,Butter,Prestige,274.89,332.0,Savannah Distributors,True,17.2
+P090,Huggies Baby Diapers L,Personal Care,Baby Diapers,Huggies,2089.4,2562.0,Highlands Trading Co,False,18.4
+P091,Kotex Sanitary Pads 8 pads,Personal Care,Sanitary Pads,Kotex,172.58,249.0,Savannah Distributors,False,30.7
+P092,Scotch-Brite Sponges and Scourers Pack of 3,Household,Sponges and Scourers,Scotch-Brite,196.74,261.0,Mt. Kenya Distributors,False,24.6
+P093,Pishori Rice 5kg,Food Staples,Rice,Pishori,606.44,757.0,Coastal Supplies Ltd,False,19.9
+P094,Head and Shoulders Shampoo 200ml,Personal Care,Shampoo,Head and Shoulders,171.26,203.0,Jambo Wholesale,False,15.6
+P095,Fresh Fry Cooking Oil 1L,Food Staples,Cooking Oil,Fresh Fry,564.71,749.0,Lakeside Traders,False,24.6
+P096,Brookside Fresh Milk 500ml,Dairy,Fresh Milk,Brookside,104.69,124.0,Coastal Supplies Ltd,True,15.6
+P097,Alpenliebe Sweets Bag,Snacks,Sweets,Alpenliebe,179.07,231.0,Savannah Distributors,False,22.5
+P098,Sony Sugar 1kg,Food Staples,Sugar,Sony,133.8,183.0,Mt. Kenya Distributors,False,26.9
+P099,Tiffy Biscuits 200g,Snacks,Biscuits,Tiffy,251.54,362.0,Lakeside Traders,False,30.5
+P100,Santa Lucia Spaghetti 400g,Food Staples,Spaghetti,Santa Lucia,67.03,79.0,Savannah Distributors,False,15.2
+P101,Vileda Sponges and Scourers Single,Household,Sponges and Scourers,Vileda,75.93,93.0,Jambo Wholesale,False,18.4
+P102,Domestos Bleach 500ml,Household,Bleach,Domestos,145.69,205.0,Highlands Trading Co,False,28.9
+P103,Pringles Crisps 100g,Snacks,Crisps,Pringles,532.98,688.0,Rift Valley Wholesalers,False,22.5
+P104,Pantene Shampoo 400ml,Personal Care,Shampoo,Pantene,693.34,798.0,Highlands Trading Co,False,13.1
+P105,Brookside Cream 500ml,Dairy,Cream,Brookside,375.55,490.0,Lakeside Traders,True,23.4
+P106,Vim Dish Soap 500ml,Household,Dish Soap,Vim,92.72,122.0,Highlands Trading Co,False,24.0
+P107,Diamond Aluminium Foil 10m,Household,Aluminium Foil,Diamond,482.37,633.0,Safari Provisions,False,23.8
+P108,Afia Juice 500ml,Beverages,Juice,Afia,188.7,248.0,Highlands Trading Co,False,23.9
+P109,Softcare Toilet Paper 4 rolls,Household,Toilet Paper,Softcare,340.98,468.0,Highlands Trading Co,False,27.1
+P110,Nutri Groundnuts 250g,Snacks,Groundnuts,Nutri,153.65,189.0,Coastal Supplies Ltd,False,18.7
+P111,Pishori Rice 2kg,Food Staples,Rice,Pishori,338.89,427.0,Lakeside Traders,False,20.6
+P112,Cadbury Chocolate Bar 100g,Snacks,Chocolate Bar,Cadbury,153.25,177.0,Rift Valley Wholesalers,False,13.4
+P113,Brookside Fresh Milk 1L,Dairy,Fresh Milk,Brookside,198.91,281.0,Safari Provisions,True,29.2
+P114,Jogoo Maize Flour 1kg,Food Staples,Maize Flour,Jogoo,100.27,142.0,Highlands Trading Co,False,29.4
+P115,Britannia Biscuits 100g,Snacks,Biscuits,Britannia,121.62,160.0,Mt. Kenya Distributors,False,24.0
+P116,Pepsi Soda 300ml,Beverages,Soda,Pepsi,66.64,80.0,Highlands Trading Co,False,16.7
+P117,Menengai Laundry Bar Soap 1kg,Household,Laundry Bar Soap,Menengai,169.73,232.0,Coastal Supplies Ltd,False,26.8
+P118,Brookside Mala 250ml,Dairy,Mala,Brookside,114.92,165.0,Rift Valley Wholesalers,True,30.4
+P119,Cadbury Chocolate Bar 50g,Snacks,Chocolate Bar,Cadbury,80.66,111.0,Savannah Distributors,False,27.3
+P120,Nivea Body Lotion 200ml,Personal Care,Body Lotion,Nivea,296.1,362.0,Safari Provisions,False,18.2
+P121,Nescafe Instant Coffee 200g,Beverages,Instant Coffee,Nescafe,1654.22,2150.0,Highlands Trading Co,False,23.1
+P122,Britannia Biscuits 400g,Snacks,Biscuits,Britannia,413.49,566.0,Highlands Trading Co,False,26.9
+P123,Jogoo Maize Flour 2kg,Food Staples,Maize Flour,Jogoo,190.52,222.0,Highlands Trading Co,False,14.2
+P124,Jergens Body Lotion 400ml,Personal Care,Body Lotion,Jergens,498.12,580.0,Safari Provisions,False,14.1
+P125,Rosy Toilet Paper 4 rolls,Household,Toilet Paper,Rosy,121.69,165.0,Savannah Distributors,False,26.2
+P126,Mumias Sugar 2kg,Food Staples,Sugar,Mumias,295.1,404.0,Savannah Distributors,False,27.0
+P127,Close-up Toothpaste 75ml,Personal Care,Toothpaste,Close-up,125.19,155.0,Coastal Supplies Ltd,False,19.2
+P128,Kericho Gold Tea Leaves 250g,Food Staples,Tea Leaves,Kericho Gold,203.79,261.0,Savannah Distributors,False,21.9
+P129,Halls Sweets Bag,Snacks,Sweets,Halls,201.09,289.0,Jambo Wholesale,False,30.4
+P130,Dola Maize Flour 1kg,Food Staples,Maize Flour,Dola,120.61,171.0,Savannah Distributors,False,29.5
+P131,Keringet Bottled Water 5L,Beverages,Bottled Water,Keringet,470.52,610.0,Safari Provisions,False,22.9
+P132,Kabras Sugar 2kg,Food Staples,Sugar,Kabras,299.8,357.0,Safari Provisions,False,16.0
+P133,Toss Laundry Detergent 1kg,Household,Laundry Detergent,Toss,454.08,628.0,Savannah Distributors,False,27.7
+P134,Nestle Drinking Chocolate 400g,Beverages,Drinking Chocolate,Nestle,703.25,940.0,Safari Provisions,False,25.2
+P135,Brookside Butter 500g,Dairy,Butter,Brookside,601.61,803.0,Savannah Distributors,True,25.1
+P136,Kenpoly Aluminium Foil 10m,Household,Aluminium Foil,Kenpoly,464.64,580.0,Safari Provisions,False,19.9
+P137,Mwea Rice 5kg,Food Staples,Rice,Mwea,734.41,951.0,Safari Provisions,False,22.8
+P138,Cadbury Drinking Chocolate 400g,Beverages,Drinking Chocolate,Cadbury,683.13,843.0,Rift Valley Wholesalers,False,19.0
+P139,Baygon Insecticide 600ml,Household,Insecticide,Baygon,802.52,1140.0,Lakeside Traders,False,29.6
+P140,Doom Insecticide 300ml,Household,Insecticide,Doom,482.29,596.0,Rift Valley Wholesalers,False,19.1
+P141,Baygon Insecticide 300ml,Household,Insecticide,Baygon,422.38,589.0,Safari Provisions,False,28.3
+P142,Nescafe Instant Coffee 50g,Beverages,Instant Coffee,Nescafe,486.53,645.0,Savannah Distributors,False,24.6
+P143,Pembe Maize Flour 1kg,Food Staples,Maize Flour,Pembe,101.43,120.0,Savannah Distributors,False,15.5
+P144,Tuzo UHT Milk 1L,Dairy,UHT Milk,Tuzo,114.72,160.0,Mt. Kenya Distributors,False,28.3
+P145,Keringet Bottled Water 500ml,Beverages,Bottled Water,Keringet,138.39,161.0,Jambo Wholesale,False,14.0
+P146,Dormans Instant Coffee 50g,Beverages,Instant Coffee,Dormans,188.84,240.0,Mt. Kenya Distributors,False,21.3
+P147,Gillette Razor Blades Pack of 5,Personal Care,Razor Blades,Gillette,598.33,848.0,Lakeside Traders,False,29.4
+P148,Omo Laundry Detergent 1kg,Household,Laundry Detergent,Omo,793.09,1084.0,Lakeside Traders,False,26.8
+P149,Act II Popcorn 50g,Snacks,Popcorn,Act II,116.34,157.0,Coastal Supplies Ltd,False,25.9
+P150,Glade Air Freshener 300ml,Household,Air Freshener,Glade,317.97,461.0,Rift Valley Wholesalers,False,31.0
+P151,Toss Laundry Detergent 500g,Household,Laundry Detergent,Toss,238.99,284.0,Lakeside Traders,False,15.8
+P152,Fresha Fresh Milk 1L,Dairy,Fresh Milk,Fresha,98.86,137.0,Rift Valley Wholesalers,True,27.8
+P153,Dettol Bar Soap 175g,Personal Care,Bar Soap,Dettol,258.36,300.0,Savannah Distributors,False,13.9
+P154,Peak Evaporated Milk 170g,Dairy,Evaporated Milk,Peak,138.69,183.0,Mt. Kenya Distributors,False,24.2
+P155,Brookside Cheese 200g,Dairy,Cheese,Brookside,261.43,370.0,Coastal Supplies Ltd,True,29.3
+P156,Kericho Gold Tea Leaves 100g,Food Staples,Tea Leaves,Kericho Gold,107.26,138.0,Highlands Trading Co,False,22.3
+P157,Pringles Crisps 165g,Snacks,Crisps,Pringles,953.75,1307.0,Jambo Wholesale,False,27.0
+P158,Dasani Bottled Water 1L,Beverages,Bottled Water,Dasani,226.89,293.0,Safari Provisions,False,22.6
+P159,Minute Maid Juice 500ml,Beverages,Juice,Minute Maid,116.54,156.0,Jambo Wholesale,False,25.3
+P160,Supaloaf Bread 400g,Food Staples,Bread,Supaloaf,72.25,99.0,Coastal Supplies Ltd,True,27.0
+P161,Brookside Ghee 250g,Dairy,Ghee,Brookside,436.82,586.0,Highlands Trading Co,False,25.5
+P162,House Brand Popcorn 50g,Snacks,Popcorn,House Brand,52.72,65.0,Savannah Distributors,False,18.9
+P163,Tuzo Cream 250ml,Dairy,Cream,Tuzo,252.61,358.0,Rift Valley Wholesalers,True,29.4
+P164,Elianto Cooking Oil 3L,Food Staples,Cooking Oil,Elianto,652.75,904.0,Mt. Kenya Distributors,False,27.8
+P165,Always Sanitary Pads 16 pads,Personal Care,Sanitary Pads,Always,408.64,565.0,Rift Valley Wholesalers,False,27.7
+P166,Elianto Cooking Oil 500ml,Food Staples,Cooking Oil,Elianto,191.99,276.0,Safari Provisions,False,30.4
+P167,Dormans Instant Coffee 100g,Beverages,Instant Coffee,Dormans,358.8,511.0,Jambo Wholesale,False,29.8
+P168,Ariel Laundry Detergent 500g,Household,Laundry Detergent,Ariel,462.72,548.0,Mt. Kenya Distributors,False,15.6
+P169,Keringet Bottled Water 1L,Beverages,Bottled Water,Keringet,262.94,325.0,Rift Valley Wholesalers,False,19.1
+P170,Cadbury Wafers Pack,Snacks,Wafers,Cadbury,47.85,64.0,Coastal Supplies Ltd,False,25.2
+P171,Kleesoft Laundry Bar Soap 1kg,Household,Laundry Bar Soap,Kleesoft,234.96,333.0,Highlands Trading Co,False,29.4
+P172,Axe Deodorant 50ml,Personal Care,Deodorant,Axe,273.15,316.0,Jambo Wholesale,False,13.6
+P173,Tuzo Mala 1L,Dairy,Mala,Tuzo,210.53,269.0,Lakeside Traders,True,21.7
+P174,Sunlight Dish Soap 1L,Household,Dish Soap,Sunlight,284.52,362.0,Savannah Distributors,False,21.4
+P175,Cadbury Wafers Single,Snacks,Wafers,Cadbury,25.18,35.0,Mt. Kenya Distributors,False,28.1
+P176,Aquafresh Toothpaste 75ml,Personal Care,Toothpaste,Aquafresh,236.67,272.0,Savannah Distributors,False,13.0
+P177,Brookside Cheese 400g,Dairy,Cheese,Brookside,496.73,597.0,Jambo Wholesale,True,16.8
+P178,Kabras Sugar 1kg,Food Staples,Sugar,Kabras,157.79,222.0,Rift Valley Wholesalers,False,28.9
+P179,Krackles Wafers Pack,Snacks,Wafers,Krackles,145.05,180.0,Highlands Trading Co,False,19.4
+P180,Krackles Biscuits 200g,Snacks,Biscuits,Krackles,283.87,334.0,Coastal Supplies Ltd,False,15.0
+P181,Pembe Wheat Flour 1kg,Food Staples,Wheat Flour,Pembe,128.37,158.0,Savannah Distributors,False,18.8
+P182,Golden Fry Cooking Oil 500ml,Food Staples,Cooking Oil,Golden Fry,292.23,406.0,Mt. Kenya Distributors,False,28.0
+P183,Tuzo Cream 500ml,Dairy,Cream,Tuzo,479.95,624.0,Safari Provisions,True,23.1
+P184,Stoney Soda 2L,Beverages,Soda,Stoney,395.99,537.0,Rift Valley Wholesalers,False,26.3
+P185,Colgate Toothpaste 140ml,Personal Care,Toothpaste,Colgate,335.46,456.0,Savannah Distributors,False,26.4
+P186,Nutri Groundnuts 100g,Snacks,Groundnuts,Nutri,80.87,106.0,Savannah Distributors,False,23.7
+P187,Jik Bleach 500ml,Household,Bleach,Jik,172.34,233.0,Savannah Distributors,False,26.0
+P188,Golden Fry Cooking Oil 3L,Food Staples,Cooking Oil,Golden Fry,993.57,1420.0,Highlands Trading Co,False,30.0
+P189,Red Bull Energy Drink 500ml,Beverages,Energy Drink,Red Bull,368.34,430.0,Highlands Trading Co,False,14.3
+P190,Festive Cake Slices Pack of 6,Snacks,Cake Slices,Festive,70.75,88.0,Rift Valley Wholesalers,True,19.6
+P191,Soko Maize Flour 2kg,Food Staples,Maize Flour,Soko,161.43,206.0,Lakeside Traders,False,21.6
+P192,Geisha Bar Soap 100g,Personal Care,Bar Soap,Geisha,58.52,77.0,Highlands Trading Co,False,24.0
+P193,Ketepa Tea Leaves 500g,Food Staples,Tea Leaves,Ketepa,594.46,797.0,Highlands Trading Co,False,25.4
+P194,Coca-Cola Soda 300ml,Beverages,Soda,Coca-Cola,79.22,110.0,Rift Valley Wholesalers,False,28.0
+P195,Delmonte Juice 500ml,Beverages,Juice,Delmonte,133.01,159.0,Rift Valley Wholesalers,False,16.3
+P196,Sunsilk Shampoo 200ml,Personal Care,Shampoo,Sunsilk,209.75,299.0,Savannah Distributors,False,29.8
+P197,Dasani Bottled Water 5L,Beverages,Bottled Water,Dasani,406.02,489.0,Rift Valley Wholesalers,False,17.0
+P198,Brookside Mala 1L,Dairy,Mala,Brookside,390.74,497.0,Safari Provisions,True,21.4
+P199,Sunsilk Shampoo 400ml,Personal Care,Shampoo,Sunsilk,398.53,481.0,Savannah Distributors,False,17.1
+P200,Tuzo Ghee 250g,Dairy,Ghee,Tuzo,469.2,582.0,Coastal Supplies Ltd,False,19.4
+P201,Geisha Bar Soap 175g,Personal Care,Bar Soap,Geisha,111.18,131.0,Coastal Supplies Ltd,False,15.1
+P202,Cadbury Drinking Chocolate 200g,Beverages,Drinking Chocolate,Cadbury,359.54,414.0,Lakeside Traders,False,13.2
+P203,Softcare Toilet Paper 10 rolls,Household,Toilet Paper,Softcare,647.87,901.0,Coastal Supplies Ltd,False,28.1
+P204,Close-up Toothpaste 140ml,Personal Care,Toothpaste,Close-up,425.66,490.0,Lakeside Traders,False,13.1
+P205,Githunguri Mala 500ml,Dairy,Mala,Githunguri,155.24,198.0,Coastal Supplies Ltd,True,21.6
+P206,Exe Wheat Flour 2kg,Food Staples,Wheat Flour,Exe,244.24,320.0,Rift Valley Wholesalers,False,23.7
+P207,Omo Laundry Detergent 500g,Household,Laundry Detergent,Omo,417.42,593.0,Coastal Supplies Ltd,False,29.6
+P208,Softcare Sanitary Pads 8 pads,Personal Care,Sanitary Pads,Softcare,215.43,264.0,Rift Valley Wholesalers,False,18.4
+P209,Nivea Deodorant 150ml,Personal Care,Deodorant,Nivea,506.19,615.0,Mt. Kenya Distributors,False,17.7
+P210,Vaseline Body Lotion 400ml,Personal Care,Body Lotion,Vaseline,637.03,782.0,Highlands Trading Co,False,18.5
+P211,Brookside Mala 500ml,Dairy,Mala,Brookside,218.35,284.0,Rift Valley Wholesalers,True,23.1
+P212,Pembe Maize Flour 2kg,Food Staples,Maize Flour,Pembe,192.71,225.0,Highlands Trading Co,False,14.4
+P213,Sprite Soda 300ml,Beverages,Soda,Sprite,49.7,62.0,Savannah Distributors,False,19.8
+P214,Snickers Chocolate Bar 100g,Snacks,Chocolate Bar,Snickers,202.49,287.0,Jambo Wholesale,False,29.4
+P215,Rexona Deodorant 50ml,Personal Care,Deodorant,Rexona,289.37,360.0,Highlands Trading Co,False,19.6
+P216,Vim Dish Soap 1L,Household,Dish Soap,Vim,176.17,245.0,Lakeside Traders,False,28.1
+P217,Peak Evaporated Milk 410g,Dairy,Evaporated Milk,Peak,263.52,354.0,Jambo Wholesale,False,25.6
+P218,Always Sanitary Pads 8 pads,Personal Care,Sanitary Pads,Always,215.07,287.0,Coastal Supplies Ltd,False,25.1
+P219,Brookside UHT Milk 1L,Dairy,UHT Milk,Brookside,140.36,163.0,Jambo Wholesale,False,13.9
+P220,Kenpoly Aluminium Foil 5m,Household,Aluminium Foil,Kenpoly,244.55,298.0,Lakeside Traders,False,17.9
+P221,Chui Matches Single,Household,Matches,Chui,17.79,21.0,Rift Valley Wholesalers,False,15.3
+P222,Doom Insecticide 600ml,Household,Insecticide,Doom,916.36,1208.0,Lakeside Traders,False,24.1
+P223,Afia Juice 1L,Beverages,Juice,Afia,358.52,503.0,Highlands Trading Co,False,28.7
+P224,Festive Bread 800g,Food Staples,Bread,Festive,171.22,216.0,Jambo Wholesale,True,20.7
+P225,Jik Bleach 1L,Household,Bleach,Jik,327.45,379.0,Highlands Trading Co,False,13.6
+P226,Aquamist Bottled Water 5L,Beverages,Bottled Water,Aquamist,294.65,395.0,Highlands Trading Co,False,25.4
+P227,Daima Mala 250ml,Dairy,Mala,Daima,111.1,149.0,Safari Provisions,True,25.4
+P228,Githunguri Mala 1L,Dairy,Mala,Githunguri,277.79,338.0,Coastal Supplies Ltd,True,17.8
+P229,Nutri Groundnuts 500g,Snacks,Groundnuts,Nutri,274.95,320.0,Savannah Distributors,False,14.1
+P230,Minute Maid Juice 1L,Beverages,Juice,Minute Maid,221.43,255.0,Jambo Wholesale,False,13.2
+P231,House Brand Popcorn 100g,Snacks,Popcorn,House Brand,100.17,138.0,Lakeside Traders,False,27.4
+P232,Jambo Spaghetti 500g,Food Staples,Spaghetti,Jambo,200.93,253.0,Mt. Kenya Distributors,False,20.6
+P233,Sunlight Dish Soap 500ml,Household,Dish Soap,Sunlight,149.75,216.0,Safari Provisions,False,30.7
+P234,Tuzo UHT Milk 500ml,Dairy,UHT Milk,Tuzo,60.38,70.0,Highlands Trading Co,False,13.7
+P235,Dove Shampoo 200ml,Personal Care,Shampoo,Dove,325.88,444.0,Rift Valley Wholesalers,False,26.6
+P236,Dove Bar Soap 175g,Personal Care,Bar Soap,Dove,88.45,115.0,Highlands Trading Co,False,23.1
+P237,Fresha Fresh Milk 500ml,Dairy,Fresh Milk,Fresha,52.03,64.0,Coastal Supplies Ltd,True,18.7
+P238,Kenco Instant Coffee 50g,Beverages,Instant Coffee,Kenco,275.38,333.0,Lakeside Traders,False,17.3
+P239,Aquamist Bottled Water 500ml,Beverages,Bottled Water,Aquamist,86.66,102.0,Mt. Kenya Distributors,False,15.0
+P240,Nescafe Instant Coffee 100g,Beverages,Instant Coffee,Nescafe,924.42,1158.0,Highlands Trading Co,False,20.2
+P241,Kibo Matches Single,Household,Matches,Kibo,20.86,28.0,Savannah Distributors,False,25.5
+P242,Tropical Heat Spaghetti 500g,Food Staples,Spaghetti,Tropical Heat,202.27,253.0,Jambo Wholesale,False,20.1
+P243,Rexona Deodorant 150ml,Personal Care,Deodorant,Rexona,549.8,637.0,Savannah Distributors,False,13.7
+P244,Domestos Bleach 1L,Household,Bleach,Domestos,276.8,343.0,Jambo Wholesale,False,19.3
+P245,Dove Shampoo 400ml,Personal Care,Shampoo,Dove,619.17,721.0,Rift Valley Wholesalers,False,14.1
+P246,Softcare Sanitary Pads 16 pads,Personal Care,Sanitary Pads,Softcare,409.32,527.0,Safari Provisions,False,22.3
+P247,Monster Energy Drink 250ml,Beverages,Energy Drink,Monster,148.66,195.0,Safari Provisions,False,23.8
+P248,Brookside Yoghurt 500ml,Dairy,Yoghurt,Brookside,253.65,355.0,Jambo Wholesale,True,28.5
+P249,Bic Razor Blades Pack of 2,Personal Care,Razor Blades,Bic,273.78,325.0,Highlands Trading Co,False,15.8
+P250,Lux Bar Soap 175g,Personal Care,Bar Soap,Lux,257.52,330.0,Rift Valley Wholesalers,False,22.0
+P251,Brookside Cream 250ml,Dairy,Cream,Brookside,197.66,264.0,Mt. Kenya Distributors,True,25.1
+P252,Mumias Sugar 1kg,Food Staples,Sugar,Mumias,155.32,192.0,Mt. Kenya Distributors,False,19.1
+P253,Daima Fresh Milk 1L,Dairy,Fresh Milk,Daima,183.54,260.0,Savannah Distributors,True,29.4
+P254,Colgate Toothpaste 75ml,Personal Care,Toothpaste,Colgate,98.66,117.0,Lakeside Traders,False,15.7
+P255,Tetley Tea Leaves 250g,Food Staples,Tea Leaves,Tetley,151.06,174.0,Jambo Wholesale,False,13.2
+P256,Basmati Rice 2kg,Food Staples,Rice,Basmati,315.34,424.0,Highlands Trading Co,False,25.6
+P257,Brookside Ghee 500g,Dairy,Ghee,Brookside,829.95,991.0,Mt. Kenya Distributors,False,16.3
+P258,Toss Laundry Detergent 2kg,Household,Laundry Detergent,Toss,812.57,1054.0,Safari Provisions,False,22.9
+P259,Tuzo Yoghurt 500ml,Dairy,Yoghurt,Tuzo,222.43,266.0,Highlands Trading Co,True,16.4
+P260,Joy Dish Soap 1L,Household,Dish Soap,Joy,386.44,488.0,Safari Provisions,False,20.8
+P261,Oral-B Toothbrush Pack of 2,Personal Care,Toothbrush,Oral-B,100.36,119.0,Mt. Kenya Distributors,False,15.7
+P262,Dove Bar Soap 100g,Personal Care,Bar Soap,Dove,46.55,60.0,Rift Valley Wholesalers,False,22.4
+P263,Broadways Bread 800g,Food Staples,Bread,Broadways,117.98,169.0,Mt. Kenya Distributors,True,30.2
+P264,Sprite Soda 2L,Beverages,Soda,Sprite,169.0,236.0,Jambo Wholesale,False,28.4
+P265,Lato UHT Milk 1L,Dairy,UHT Milk,Lato,145.73,203.0,Savannah Distributors,False,28.2
+P266,Stoney Soda 500ml,Beverages,Soda,Stoney,221.29,275.0,Highlands Trading Co,False,19.5
+P267,Mwea Rice 2kg,Food Staples,Rice,Mwea,410.41,589.0,Jambo Wholesale,False,30.3
+P268,Tuzo Fresh Milk 500ml,Dairy,Fresh Milk,Tuzo,69.87,98.0,Savannah Distributors,True,28.7
+P269,Golden Fry Cooking Oil 1L,Food Staples,Cooking Oil,Golden Fry,555.23,738.0,Coastal Supplies Ltd,False,24.8
+P270,Harpic Bleach 1L,Household,Bleach,Harpic,443.27,541.0,Coastal Supplies Ltd,False,18.1
+P271,Prestige Butter 500g,Dairy,Butter,Prestige,522.28,712.0,Lakeside Traders,True,26.6
+P272,Brookside Butter 250g,Dairy,Butter,Brookside,316.63,422.0,Mt. Kenya Distributors,True,25.0
+P273,Kenco Instant Coffee 200g,Beverages,Instant Coffee,Kenco,936.28,1203.0,Coastal Supplies Ltd,False,22.2
+P274,Fanta Soda 300ml,Beverages,Soda,Fanta,41.13,58.0,Savannah Distributors,False,29.1
+P275,Coca-Cola Soda 2L,Beverages,Soda,Coca-Cola,269.36,350.0,Savannah Distributors,False,23.0
+P276,Stoney Soda 300ml,Beverages,Soda,Stoney,116.47,169.0,Coastal Supplies Ltd,False,31.1
+P277,Lays Crisps 100g,Snacks,Crisps,Lays,277.66,381.0,Jambo Wholesale,False,27.1
+P278,Harpic Bleach 500ml,Household,Bleach,Harpic,233.3,315.0,Coastal Supplies Ltd,False,25.9
+P279,Daima Yoghurt 500ml,Dairy,Yoghurt,Daima,101.87,133.0,Savannah Distributors,True,23.4
+P280,Ariel Laundry Detergent 1kg,Household,Laundry Detergent,Ariel,879.18,1127.0,Jambo Wholesale,False,22.0
+P281,Krackles Wafers Single,Snacks,Wafers,Krackles,76.34,105.0,Highlands Trading Co,False,27.3
+P282,Tuzo Yoghurt 250ml,Dairy,Yoghurt,Tuzo,117.07,157.0,Savannah Distributors,True,25.4
+P283,Tetley Tea Leaves 500g,Food Staples,Tea Leaves,Tetley,270.33,348.0,Jambo Wholesale,False,22.3
+P284,Nestle Drinking Chocolate 200g,Beverages,Drinking Chocolate,Nestle,370.13,535.0,Jambo Wholesale,False,30.8
+P285,Kleenex Toilet Paper 10 rolls,Household,Toilet Paper,Kleenex,300.23,423.0,Coastal Supplies Ltd,False,29.0
+P286,Vileda Sponges and Scourers Pack of 3,Household,Sponges and Scourers,Vileda,144.26,180.0,Rift Valley Wholesalers,False,19.9
+P287,Huggies Baby Diapers S,Personal Care,Baby Diapers,Huggies,614.53,817.0,Highlands Trading Co,False,24.8
+P288,Pick n Peel Juice 1L,Beverages,Juice,Pick n Peel,165.28,210.0,Lakeside Traders,False,21.3
+P289,Sunlight Laundry Detergent 1kg,Household,Laundry Detergent,Sunlight,963.34,1191.0,Highlands Trading Co,False,19.1
+P290,Kit Kat Chocolate Bar 50g,Snacks,Chocolate Bar,Kit Kat,97.87,130.0,Coastal Supplies Ltd,False,24.7
+P291,Raid Insecticide 600ml,Household,Insecticide,Raid,864.78,1118.0,Safari Provisions,False,22.6
+P292,Scotch-Brite Sponges and Scourers Single,Household,Sponges and Scourers,Scotch-Brite,103.55,142.0,Safari Provisions,False,27.1
+P293,Supaloaf Bread 800g,Food Staples,Bread,Supaloaf,137.27,181.0,Safari Provisions,True,24.2
+P294,Fanta Soda 500ml,Beverages,Soda,Fanta,78.14,91.0,Savannah Distributors,False,14.1
+P295,Predator Energy Drink 250ml,Beverages,Energy Drink,Predator,167.21,231.0,Jambo Wholesale,False,27.6
+P296,Brookside Yoghurt 250ml,Dairy,Yoghurt,Brookside,133.5,184.0,Highlands Trading Co,True,27.4
+P297,Githunguri Mala 250ml,Dairy,Mala,Githunguri,81.7,95.0,Mt. Kenya Distributors,True,14.0
+P298,Krackles Biscuits 100g,Snacks,Biscuits,Krackles,149.4,195.0,Coastal Supplies Ltd,False,23.4
+P299,Axe Deodorant 150ml,Personal Care,Deodorant,Axe,518.99,710.0,Rift Valley Wholesalers,False,26.9
+P300,Dasani Bottled Water 500ml,Beverages,Bottled Water,Dasani,119.42,153.0,Savannah Distributors,False,21.9
