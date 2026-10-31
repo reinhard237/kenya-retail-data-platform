@@ -1,0 +1,10 @@
+#,Test,Question,p-value,Effect size,95% CI,Decision (alpha = 0.05)
+1,Welch t-test + Mann-Whitney,Do M-Pesa baskets differ in value from other payment methods?,< 0.0001,d = 0.20; M-Pesa/other = 1.23x,"[367, 418] KES",Reject H0
+2,OLS with calendar controls (HAC),Do promotion days have higher total daily revenue than comparable days?,< 0.0001,+20.0% daily revenue,"[+15.5%, +24.6%]",Reject H0
+3,Pooled diff-in-diff regression,Does a promotion lift the promoted category beyond what un-promoted categories did?,0.3772,+5.1% extra revenue,"[-5.9%, +17.3%]",Fail to reject H0
+4,Paired t-test + Wilcoxon (diff-in-diff),Do promoted categories sell more during a promotion than un-promoted categories do?,0.3172,+5.5 pp mean extra lift,"[-6.6, +17.6] pp",Fail to reject H0
+5,Welch t-test + Mann-Whitney,Do loyalty members have larger average baskets than non-members?,< 0.0001,d = 0.28,"[203, 315] KES",Reject H0
+6,Welch t-test,Is basket value different in the payday period?,0.1454,d = -0.011,"[-51, 8] KES",Fail to reject H0
+7,One-way ANOVA + Kruskal-Wallis + Tukey,Do basket values differ across store types?,0.1748,eta-squared = 0.0000,see Tukey table,Fail to reject H0
+8,Chi-square test of independence,Is payment method associated with sales channel?,< 0.0001,Cramer's V = 0.173,n/a,Reject H0
+9,Two-proportion z-test,Are promotional lines returned more often?,0.6656,-0.03 pp,"[-0.18, +0.11] pp",Fail to reject H0
