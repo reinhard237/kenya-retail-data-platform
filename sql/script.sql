@@ -1157,6 +1157,184 @@ WHERE is_return = TRUE
 GROUP BY DATE_TRUNC('month', transaction_date)::date
 ORDER BY sales_month;
 
+--INDEXES
+CREATE INDEX IF NOT EXISTS idx_tx_date
+    ON retail.transactions (transaction_date);
+
+CREATE INDEX IF NOT EXISTS idx_tx_store
+    ON retail.transactions (store_id);
+
+CREATE INDEX IF NOT EXISTS idx_tx_product
+    ON retail.transactions (product_id);
+
+CREATE INDEX IF NOT EXISTS idx_tx_customer
+    ON retail.transactions (customer_id);
+
+CREATE INDEX IF NOT EXISTS idx_tx_invoice
+    ON retail.transactions (invoice_no);
+
+CREATE INDEX IF NOT EXISTS idx_tx_promo
+    ON retail.transactions (promo_id);
+
+--VIEWS
+-- 1. Sales Overview
+CREATE OR REPLACE VIEW vw_dash_sales_overview AS
+WITH invoice_totals AS (
+    SELECT
+        invoice_no,
+        SUM(line_total_kes) AS invoice_value_kes
+    FROM retail.transactions
+    WHERE is_return = FALSE
+    GROUP BY invoice_no
+)
+SELECT
+    COUNT(DISTINCT t.invoice_no) FILTER (WHERE t.is_return = FALSE) AS total_invoices,
+    ROUND(SUM(t.line_total_kes), 2) AS net_sales_kes,
+    ROUND(SUM(t.line_total_kes) FILTER (WHERE t.is_return = FALSE), 2) AS sales_before_returns_kes,
+    ROUND(-SUM(t.line_total_kes) FILTER (WHERE t.is_return = TRUE), 2) AS returned_value_kes,
+    SUM(t.quantity) AS net_units,
+    ROUND(SUM(t.line_total_kes - (t.quantity * p.unit_cost_kes)), 2) AS gross_profit_kes,
+    ROUND((SELECT AVG(invoice_value_kes) FROM invoice_totals), 2) AS average_invoice_value_kes,
+    COUNT(DISTINCT t.customer_id) FILTER (
+        WHERE t.customer_id IS NOT NULL AND t.is_return = FALSE
+    ) AS identified_customers
+FROM transactions t
+JOIN products p ON p.product_id = t.product_id;
+
+-- 2. SALES TRENDS
+CREATE OR REPLACE VIEW vw_dash_sales_trends AS
+SELECT
+    DATE_TRUNC('month', transaction_date)::date AS sales_month,
+    SUM(line_total_kes) AS net_sales_kes,
+    SUM(line_total_kes) FILTER (WHERE is_return = FALSE) AS sales_before_returns_kes,
+    SUM(quantity) AS net_units,
+    COUNT(DISTINCT invoice_no) FILTER (WHERE is_return = FALSE) AS total_invoices
+FROM transactions
+GROUP BY DATE_TRUNC('month', transaction_date)::date;
+
+-- 3. Product Performance
+CREATE OR REPLACE VIEW vw_dash_product_performance AS
+SELECT
+    p.product_id,
+    p.product_name,
+    p.category,
+    p.subcategory,
+    p.brand,
+    COALESCE(SUM(t.quantity) FILTER (WHERE t.quantity > 0), 0) AS units_sold,
+    COALESCE(-SUM(t.quantity) FILTER (WHERE t.quantity < 0), 0) AS units_returned,
+    ROUND(COALESCE(SUM(t.line_total_kes), 0), 2) AS net_sales_kes,
+    ROUND(COALESCE(SUM(t.line_total_kes - (t.quantity * p.unit_cost_kes)), 0), 2) AS gross_profit_kes
+FROM products p
+LEFT JOIN transactions t ON t.product_id = p.product_id
+GROUP BY p.product_id, p.product_name, p.category, p.subcategory, p.brand;
+
+-- 4. Store Performance
+CREATE OR REPLACE VIEW vw_dash_store_performance AS
+SELECT
+    s.store_id,
+    s.store_name,
+    s.county,
+    s.town,
+    s.store_type,
+    COUNT(DISTINCT t.invoice_no) FILTER (WHERE t.is_return = FALSE) AS total_invoices,
+    ROUND(COALESCE(SUM(t.line_total_kes), 0), 2) AS net_sales_kes,
+    ROUND(COALESCE(SUM(t.line_total_kes - (t.quantity * p.unit_cost_kes)), 0), 2) AS gross_profit_kes,
+    COUNT(DISTINCT t.customer_id) FILTER (
+        WHERE t.customer_id IS NOT NULL AND t.is_return = FALSE
+    ) AS identified_customers
+FROM stores s
+LEFT JOIN transactions t ON t.store_id = s.store_id
+LEFT JOIN products p ON p.product_id = t.product_id
+GROUP BY s.store_id, s.store_name, s.county, s.town, s.store_type;
+
+-- 5. Cuctomer Analysis
+CREATE OR REPLACE VIEW vw_dash_customer_analysis AS
+SELECT
+    c.customer_id,
+    c.gender,
+    c.age,
+    c.age_band,
+    c.county,
+    c.loyalty_member,
+    COUNT(DISTINCT t.invoice_no) FILTER (WHERE t.is_return = FALSE) AS total_invoices,
+    ROUND(COALESCE(SUM(t.line_total_kes), 0), 2) AS net_sales_kes,
+    MAX(t.transaction_date) FILTER (WHERE t.is_return = FALSE) AS last_purchase_date
+FROM customers c
+LEFT JOIN transactions t ON t.customer_id = c.customer_id
+GROUP BY c.customer_id, c.gender, c.age, c.age_band, c.county, c.loyalty_member;
+
+-- 6. Payment and Channel Analysis
+CREATE OR REPLACE VIEW vw_dash_payment_analysis AS
+WITH invoice_totals AS (
+    SELECT
+        invoice_no,
+        payment_method,
+        channel,
+        SUM(line_total_kes) AS invoice_value_kes
+    FROM retail.transactions
+    WHERE is_return = FALSE
+    GROUP BY invoice_no, payment_method, channel
+)
+SELECT
+    payment_method,
+    channel,
+    COUNT(*) AS total_invoices,
+    ROUND(SUM(invoice_value_kes), 2) AS sales_kes,
+    ROUND(AVG(invoice_value_kes), 2) AS average_invoice_value_kes
+FROM invoice_totals
+GROUP BY payment_method, channel;
+
+-- 7. Promotion Analysis
+CREATE OR REPLACE VIEW vw_dash_promotion_analysis AS
+SELECT
+    p.promo_id,
+    p.promo_name,
+    p.start_date,
+    p.end_date,
+    p.category_targeted,
+    p.discount_pct,
+    COUNT(DISTINCT t.invoice_no) FILTER (WHERE t.is_return = FALSE) AS promo_invoices,
+    ROUND(COALESCE(SUM(t.line_total_kes) FILTER (WHERE t.is_return = FALSE), 0), 2) AS promo_sales_kes,
+    ROUND(COALESCE(SUM(
+        (t.quantity * t.unit_price_kes) - t.line_total_kes
+    ) FILTER (WHERE t.is_return = FALSE), 0), 2) AS discount_amount_kes
+FROM promotions p
+LEFT JOIN transactions t ON t.promo_id = p.promo_id
+GROUP BY p.promo_id, p.promo_name, p.start_date, p.end_date,
+         p.category_targeted, p.discount_pct;
+
+-- 8. Returns Analysis
+CREATE OR REPLACE VIEW vw_dash_returns_analysis AS
+SELECT
+    s.store_id,
+    s.store_name,
+    s.county,
+    p.product_id,
+    p.product_name,
+    p.category,
+    COALESCE(SUM(t.quantity) FILTER (WHERE t.quantity > 0), 0) AS units_sold,
+    COALESCE(-SUM(t.quantity) FILTER (WHERE t.quantity < 0), 0) AS units_returned,
+    ROUND(COALESCE(-SUM(t.line_total_kes) FILTER (WHERE t.is_return = TRUE), 0), 2) AS returned_value_kes,
+    COUNT(*) FILTER (WHERE t.is_return = TRUE) AS return_lines
+FROM stores s
+JOIN transactions t ON t.store_id = s.store_id
+JOIN products p ON p.product_id = t.product_id
+GROUP BY s.store_id, s.store_name, s.county,
+         p.product_id, p.product_name, p.category;
+
+-- Confirming that all eight views return results.
+SELECT 'vw_dash_sales_overview' AS view_name, COUNT(*) AS row_count FROM vw_dash_sales_overview
+UNION ALL SELECT 'vw_dash_sales_trends', COUNT(*) FROM vw_dash_sales_trends
+UNION ALL SELECT 'vw_dash_product_performance', COUNT(*) FROM vw_dash_product_performance
+UNION ALL SELECT 'vw_dash_store_performance', COUNT(*) FROM vw_dash_store_performance
+UNION ALL SELECT 'vw_dash_customer_analysis', COUNT(*) FROM vw_dash_customer_analysis
+UNION ALL SELECT 'vw_dash_payment_analysis', COUNT(*) FROM vw_dash_payment_analysis
+UNION ALL SELECT 'vw_dash_promotion_analysis', COUNT(*) FROM vw_dash_promotion_analysis
+UNION ALL SELECT 'vw_dash_returns_analysis', COUNT(*) FROM vw_dash_returns_analysis
+ORDER BY view_name;
+
+
+
 
 
 
